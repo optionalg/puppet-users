@@ -1,3 +1,7 @@
+class users {
+    
+}
+
 define users::user(
     $name = '',
     $group = 'users',
