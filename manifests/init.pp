@@ -1,4 +1,4 @@
-define users::create(
+define users::user(
     $name = '',
     $group = 'users',
     $ensure = 'present'
