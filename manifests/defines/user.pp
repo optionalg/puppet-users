@@ -1,7 +1,7 @@
 define users::user(
     $name = '',
     $group = 'users',
-    $ensure = 'present'
+    $ensure = 'present',
     $comment = '',
     $home = "/home/${name}",
     $managehome = true,
