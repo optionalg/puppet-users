@@ -8,7 +8,7 @@ define users::user(
     $password = '',
     $shell = '/bin/sh',
     $system = false,
-    $ssh_key = ''
+    $ssh_key = '',
     $ssh_key_type = 'ssh-rsa'
 ) {
 
